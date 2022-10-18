@@ -227,6 +227,14 @@
         "timeout": 60,
         "cookies": "https://delivio.by/"
       },
+      
+      "banki": {
+        "url": "https://www.banki.ru/ng/api/v1.0/public/auth/send-otp/",
+        "json": "{'phone': '*+phone*'}",
+        "response": 200,
+        "timeout": 60,
+        "cookies": "https://www.banki.ru/"
+    },
       "wildberries": {
         "url": "https://authorization.wildberries.eu/api/v2/code/request",
         "json": "{\"contact\": \"*phone*\", \"auth_method\": \"sms\", \"lang\": \"ru\"}",
